@@ -20,9 +20,9 @@
 <body>
 <main>
 <h1>Orbital Breaker - Privacy Policy</h1>
-<p class="meta">Effective date: 20 October 2026<br>Developer: Wbison, contact: <a href="mailto:gradolusit@gmail.com">gradolusit@gmail.com</a></p>
+<p class="meta">Effective date: 9 November 2026<br>Developer: Wbison, contact: <a href="mailto:gradolusit@gmail.com">gradolusit@gmail.com</a></p>
 
-<p>Orbital Breaker does not sell personal data. It sends data to the developer only if you turn on online leaderboards (see below).</p>
+<p>Orbital Breaker does not sell personal data. It sends data to the developer only for the online leaderboards, which you can turn off (see below).</p>
 
 <h2>What the app stores</h2>
 <p>The game saves your progress and settings on your device only:</p>
@@ -33,7 +33,7 @@
   <li>your best ghost run and the replays of your best challenge runs;</li>
   <li>a local error log that helps the developer when you report a problem. It stays on your device unless you send it yourself.</li>
 </ul>
-<p>This data never leaves your device through the game; only the optional online leaderboards described below send anything. Uninstalling the app or clearing its storage deletes it.</p>
+<p>This data never leaves your device through the game; only the online leaderboards described below send anything. Uninstalling the app or clearing its storage deletes it.</p>
 
 <h2>Device backup</h2>
 <p>If you use Android's device backup, Android may include the game's save files in your personal backup, managed by Google under your Google account settings. The developer has no access to these backups.</p>
@@ -42,15 +42,16 @@
 <p>If you choose tilt controls, the game reads the accelerometer only while you play, to move the paddle. Sensor data is not stored or sent anywhere.</p>
 
 <h2>Network</h2>
-<p>On Android the game uses the network only for Google Play (the in-app purchase, see below) and, if you turn them on, for the online leaderboards.</p>
+<p>On Android the game uses the network only for Google Play (the in-app purchase, see below) and, unless you turn them off, for the online leaderboards.</p>
 
-<h2>Online leaderboards (optional, off by default)</h2>
-<p>If you turn on "Online boards" in the options, the game creates a random player ID, a random secret and a generated name such as "NOVA HAWK 42" on your device. When you finish a daily or weekly challenge with a new personal best, the game sends to the developer's leaderboard service over an encrypted connection:</p>
+<h2>Online leaderboards (on by default, you can turn them off)</h2>
+<p>When the game first starts, it creates a random player ID, a random secret and a generated name such as "NOVA HAWK 42" on your device. Nothing is sent until you finish a daily or weekly challenge or open the online records. You can turn "Online boards" off in the options at any time; the game then sends nothing more. When you finish a daily or weekly challenge with a new personal best, the game sends to the developer's leaderboard service over an encrypted connection:</p>
 <ul>
   <li>that player ID, the secret and the name;</li>
+  <li>the country shown next to your name: the region set on your device, unless you pick another one or hide it with "Country" in the options;</li>
   <li>the recorded inputs of the run (a replay), which the service plays again to compute your score.</li>
 </ul>
-<p>The service stores the ID, a hash of the secret (never the secret itself), the name, your best score per challenge and its replay. Boards and replays are deleted automatically after 30 days (daily) or 12 weeks (weekly). Turning "Online boards" off deletes your player, your entries and your replays from the service. The service also processes your IP address to limit request rates; it is not stored with your entries. The leaderboard service is not running yet. Its hosting provider and location will be named here before it starts.</p>
+<p>The service stores the ID, a hash of the secret (never the secret itself), the name, the country, your best score per challenge and its replay. Other players see the name, the country and the score on the boards. Boards and replays are deleted automatically after 30 days (daily) or 12 weeks (weekly). Turning "Online boards" off deletes your player, your entries and your replays from the service. The service also processes your IP address to limit request rates; it is not stored with your entries. The service runs on a server rented from Hetzner Online GmbH in its Helsinki data centre (Finland, EU).</p>
 
 <h2>No accounts, ads or analytics</h2>
 <p>The game has no sign-in, no advertising, and no analytics or crash-reporting SDKs. The online leaderboard identity is a random ID, not an account with personal details.</p>
